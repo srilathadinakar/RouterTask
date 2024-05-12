@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body{
+    font-family: "DM Sans", sans-serif !important;
+    font-style: normal;
+}
+.brand{
+    text-decoration: none !important;
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding-bottom: 15px;
+}
+.navbar{
+    background-color: cadetblue;    
+}
+.navbar-nav .nav-item a{
+    text-decoration: none !important;
+    margin: 20px 10px !important;
+    padding: 0 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.col-sm-6 .navbar-nav .nav-item a{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar-nav .nav-item a:hover{
+    color: black;
+}
+.navbar-expand-lg .navbar-collapse{
+    justify-content: end;
+}
+h1{
+    color:cadetblue;
+}
+.card{
+    height: 370px !important;
+}
+.card img{
+    height: 200px;
+}
+.card-body P{
+    margin-bottom: 0.3rem;
+}
